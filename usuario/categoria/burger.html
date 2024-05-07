@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/usuario/style.css">
+    <script src="/usuario/app.js" async></script>
+    <title>hamburgesas</title>
+</head>
+<body>
+    <section class="contenedor">
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Box Engassec</span>
+                <img src="/usuario/img/boxengasse.png" alt="" class="img-item"><!--adaptar imagen a las hamburgesas u otro producto-->
+                <span class="precio-item">$15.00</span><!--adaptar el precio a otros productos-->
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <!--Otro Contenedor-->
+            <div class="item">
+                <span class="titulo-item">English Horse</span>
+                <img src="/usuario/img/englishrose.png" alt="" class="img-item"><!--adaptar imagen a las hamburgesas u otro producto-->
+                <span class="precio-item">21.00</span><!--adaptar el precio a otros productos-->
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>                    
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i></button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
